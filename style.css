@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vollkorn", serif;
+  text-align: center;
+  margin: 0;
+  background-color: #f8f8f8;
+  color: #6d6d6d;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+h2,
+h3 {
+  color: #2a2a2a;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.section {
+  /* border: red 4px solid; */
+}
+
+/* section-header */
+
+.section-header {
+  font-family: "Brawler", serif;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.section-header::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #c4c4c4;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
+
+.section-header span {
+  background-color: #f8f8f8;
+  padding: 0 0.5rem;
+}
+
+.intro-over-mij {
+  font-size: 1.25rem;
+}
+
+.section p,
+li {
+  font-size: 0.875rem;
+}
+
+.section-home p {
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 328px;
+  margin: 0 auto;
+}
+
+/* img */
+
+.img-logo {
+  max-width: 120px;
+}
+
+.img-profile {
+  border-radius: 50%;
+  max-width: 240px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* button styling */
+
+.btn {
+  display: block;
+  font-size: 0.75rem;
+  font-family: "Brawler", serif;
+  color: #fff;
+  background-color: #2a2a2a;
+  padding: 0.625em 1em;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
