@@ -152,14 +152,10 @@ img {
   margin-top: 2rem;
 }
 
-.section-list li {
-  font-size: 0.875rem;
-}
-
 .section-header {
   position: relative;
   font-family: "Brawler", serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 1.5rem;
@@ -181,12 +177,8 @@ img {
   padding: 0 0.5rem;
 }
 
-.section p {
-  font-size: 0.875rem;
-}
-
 .section-home p {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .img-profile {
