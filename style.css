@@ -19,6 +19,14 @@ html {
   scroll-behavior: smooth;
 }
 
+#home,
+#over-mij,
+#visie-en-werkwijze,
+#aanbod,
+#contact {
+  scroll-margin-top: 1rem;
+}
+
 body {
   font-family: "Vollkorn", serif;
   background-color: var(--backgroundColor);
