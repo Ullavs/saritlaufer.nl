@@ -47,6 +47,13 @@ h6 {
   color: var(--accentColor);
 }
 
+h1 {
+  display: inline;
+  font-size: 1.25rem;
+  color: var(--textColor);
+  font-weight: 400;
+}
+
 h3 {
   font-size: 1.25rem;
   margin: 1rem 0 0.5rem 0;
@@ -178,6 +185,7 @@ img {
 }
 
 .section-home p {
+  display: inline;
   font-size: 1.25rem;
 }
 
